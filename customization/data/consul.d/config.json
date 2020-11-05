@@ -1,0 +1,20 @@
+{
+    "bootstrap_expect": 1,
+    "client_addr": "127.0.0.1",
+    "bind_addr": "127.0.0.1",
+    "datacenter": "localAppliance",
+    "data_dir": "/tmp/consul",
+    "domain": "consul",
+    "enable_script_checks": true,
+    "dns_config": {
+        "enable_truncate": true,
+        "only_passing": true
+    },
+    "enable_syslog": true,
+    "encrypt": "",
+    "leave_on_terminate": true,
+    "log_level": "INFO",
+    "rejoin_after_leave": true,
+    "server": true,
+    "ui": false
+}
